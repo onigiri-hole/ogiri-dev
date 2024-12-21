@@ -17,3 +17,16 @@ flowchart TB
   node_2 --"お題を取得"--> node_3
   node_3 --"リクエストを送信"--> node_1
 ```
+
+## 詳細
+
+### VM
+
+
+### Supabase
+- Postgres　Databaseでお題を管理
+- 認証機能は随時実装予定
+
+### Vercel
+- Nextjsで実装
+- お題の残り件数が足りなくなった時点でAPIを呼び出し
